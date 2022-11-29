@@ -1,16 +1,19 @@
 # MapSCII Docker Telnet Server
 
-A ready to use Docker image to serve MapSCII over a telnet server exactly like mapscii.me.
+A ready to use Docker image to serve [MapSCII](https://github.com/rastapasta/mapscii) over a telnet server exactly like on mapscii.me.
 
-## Getting started :
+## Getting started
 
 ```sh
 $ docker run -d -p 23:23 mapscii-telnet-server
 $ telnet localhost
 ```
 
-More informations at https://hub.docker.com/r/benjaminferon/mapscii-telnet-server
+## Advanced
 
+Traefik integration and other informations at https://hub.docker.com/r/benjaminferon/mapscii-telnet-server
+
+---
 
 README from https://github.com/rastapasta/mapscii :
 
