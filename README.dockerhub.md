@@ -20,7 +20,6 @@ version: "3.7"
 services:
   mapscii-telnet-server:
     image: benjaminferon/mapscii-telnet-server:latest
-    restart: unless-stopped
     network_mode: host
     ports:
       - 23:23
