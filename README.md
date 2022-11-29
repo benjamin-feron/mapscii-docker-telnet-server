@@ -17,12 +17,14 @@ $ telnet localhost
 
 ## Advanced
 
-Traefik integration and other informations at https://hub.docker.com/r/benjaminferon/mapscii-telnet-server
+Traefik integration and other informations [here](README.dockerhub.md).
+
+View image on Dockerhub : https://hub.docker.com/r/benjaminferon/mapscii-telnet-server.
 \
 \
 \
 \
-Description of [MapSCII](https://github.com/rastapasta/mapscii) :
+Official description of [MapSCII](https://github.com/rastapasta/mapscii) :
 
 ---
 
