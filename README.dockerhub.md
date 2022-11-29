@@ -54,9 +54,32 @@ Network creating :
 $ docker network create -d bridge telnet
 ```
 
+Traefik docker-compose.yml :
+```yml
+version: "3.7"
+
+networks:
+  telnet:
+    external: true
+  [...]
+
+services:
+  traefik:
+    image: traefik:latest
+    container_name: traefik
+    restart: unless-stopped
+    networks:
+      - telnet
+      [...]
+    ports:
+      - "23:23"
+      [...]
+    [...]
+```
+
 MAPScii docker-compose.yml :
 ```yml
-version: "3.3"
+version: "3.7"
 
 networks:
   telnet:
