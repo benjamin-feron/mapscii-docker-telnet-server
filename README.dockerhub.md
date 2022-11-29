@@ -40,17 +40,18 @@ it works only if both of those conditions are met :
 1. The TCP router rule is ```rule: HostSNI(`*`)```
 2. The TCP router is the only of all (TCP or HTTP) routers listening to the corresponding entrypoint
 
-With MAPScii, we are in this situation so we have to declare a dedicated entrypoint.
-
-```sh
-$ docker network create -d bridge telnet
-```
+With MAPScii, we are in this situation so we have to declare a dedicated entrypoint :
 
 Traefik static configuration :
 ```yml
 entrypoints:
   mapscii-dedicated:
     address: :23
+```
+
+Network creating :
+```sh
+$ docker network create -d bridge telnet
 ```
 
 MAPScii docker-compose.yml :
