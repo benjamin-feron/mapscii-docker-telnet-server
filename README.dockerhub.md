@@ -33,7 +33,7 @@ $ docker-compose up -d
 $ telnet localhost
 ```
 
-### Integration with traefik
+### Traefik integration
 
 As it says [here](https://github.com/traefik/traefik/issues/6838), in a case where the server is the first to send data on the TCP stream,
 it works only if both of those conditions are met :
