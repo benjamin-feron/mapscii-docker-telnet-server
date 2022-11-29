@@ -2,12 +2,6 @@
 
 A ready to use Docker image to serve [MapSCII](https://github.com/rastapasta/mapscii) over a telnet server exactly like on mapscii.me.
 
-## Demo
-
-```sh
-telnet mapscii.me
-```
-
 ## Getting started
 
 ```sh
