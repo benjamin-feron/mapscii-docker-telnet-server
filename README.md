@@ -12,10 +12,13 @@ $ telnet localhost
 ## Advanced
 
 Traefik integration and other informations at https://hub.docker.com/r/benjaminferon/mapscii-telnet-server
+\
+\
+\
+\
+Description of [MapSCII](https://github.com/rastapasta/mapscii) :
 
 ---
-
-README from https://github.com/rastapasta/mapscii :
 
 # MapSCII - The Whole World In Your Console. [![Build Status](https://travis-ci.com/rastapasta/mapscii.svg?branch=master)](https://travis-ci.com/rastapasta/mapscii)
 
