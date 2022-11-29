@@ -72,5 +72,4 @@ services:
       traefik.enable: true
       traefik.tcp.routers.mapscii.rule: "HostSNI(`*`)"
       traefik.tcp.routers.mapscii.entrypoints: "mapscii-dedicated"
-      traefik.tcp.services.mapscii.loadbalancer.server.port: 23
 ```
