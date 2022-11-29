@@ -17,7 +17,7 @@ $ telnet localhost
 
 docker-compose.yml :
 ```yml
-version: "3.3"
+version: "3.7"
 
 services:
   mapscii-telnet-server:
