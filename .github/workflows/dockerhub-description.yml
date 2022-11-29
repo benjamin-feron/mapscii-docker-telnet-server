@@ -21,6 +21,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: benjaminferon/docker-tags
+          repository: benjaminferon/mapscii-telnet-server
           short-description: ${{ github.event.repository.description }}
           readme-filepath: ./README.dockerhub.md
