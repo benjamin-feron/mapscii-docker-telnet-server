@@ -74,3 +74,8 @@ services:
       traefik.tcp.routers.mapscii.rule: "HostSNI(`*`)"
       traefik.tcp.routers.mapscii.entrypoints: "mapscii-dedicated"
 ```
+
+```sh
+$ docker-compose up -d
+$ telnet domain.ltd
+```
