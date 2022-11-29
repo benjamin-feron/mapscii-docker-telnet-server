@@ -40,9 +40,8 @@ it works only if both of those conditions are met :
 1. The TCP router rule is ```rule: HostSNI(`*`)```
 2. The TCP router is the only of all (TCP or HTTP) routers listening to the corresponding entrypoint
 
-With MAPScii, we are in this situation so we have to declare a dedicated entrypoint :
+With MAPScii, we are in this situation so we have to declare a dedicated entrypoint in Traefik static configuration :
 
-Traefik static configuration :
 ```yml
 entrypoints:
   mapscii-dedicated:
