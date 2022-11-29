@@ -1,6 +1,6 @@
 # MapSCII Docker Telnet Server
 
-A ready to use Docker image for serve MapSCII over a telnet server exactly like mapscii.me.
+A ready to use Docker image to serve MapSCII over a telnet server exactly like mapscii.me.
 
 ## Getting started :
 
