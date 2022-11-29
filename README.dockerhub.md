@@ -67,10 +67,10 @@ services:
     restart: unless-stopped
     networks:
       - telnet
-      [...]
+      - [...]
     ports:
       - "23:23"
-      [...]
+      - [...]
     [...]
 ```
 
