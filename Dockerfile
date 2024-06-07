@@ -46,8 +46,8 @@ RUN echo "\n" \
   "\n" \
   "                                 ---\n" \
   "\n" \
-  "                     dockerized by Benjamin Féron\n" \
-  "                   https://github.com/benjamin-feron" \
+  "                        dockerized with <3 at\n" \
+  "                    https://github.com/benjamin-feron" \
   "\n" \
   > /mapscii-banner
 
